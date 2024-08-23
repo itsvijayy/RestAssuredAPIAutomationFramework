@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" parallel="true">
+    <test name="API Test">
+        <classes>
+            <class name="ReqresE2ETests"/>
+        </classes>
+    </test>
+
+</suite>
