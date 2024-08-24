@@ -24,7 +24,7 @@ public class GETUsersAPIResponse {
      */
     public static void validateResponseBody(Response response) {
         response.then()
-                .body("page", equalTo(2)) // Validate 'page' field
+                .body("page", equalTo(3)) // Validate 'page' field
                 .body("per_page", equalTo(6)) // Validate 'per_page' field
                 .body("total", equalTo(12)) // Validate 'total' field
                 .body("total_pages", equalTo(2)) // Validate 'total_pages' field
